@@ -1,5 +1,5 @@
 streamlit==1.13.0
-pymupdf==1.20.2
+fitz==1.20.2
 pandas==1.3.3
 pandasai==0.8.1
 langchain==0.0.129
