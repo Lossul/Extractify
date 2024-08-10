@@ -181,9 +181,7 @@ def main():
     if "history" not in st.session_state:
         st.session_state.history = []
 
-    add_bg_from_local('bg_image.png')
-    with st.sidebar:
-        add_bg_from_local('sidebar_bg.jpg')
+    add_bg_from_local('bg_image.png')   
     left_co, middle_co, right_co = st.columns(3)
     with middle_co:
         st.image("logo.png", width=250)
